@@ -25,7 +25,7 @@ WORKDIR $WRKDIR
 COPY package.json .
 
 # Install dependencies
-RUN npm install
+RUN npm install --production
 
 COPY . .
 
