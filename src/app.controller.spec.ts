@@ -15,8 +15,8 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('should return "Hello Cloud Run World!"', () => {
-      expect(appController.getHello()).toBe('Hello Cloud Run World!');
+    it('should return "Hello Cloud Run & Cloud Build World!"', () => {
+      expect(appController.getHello()).toBe('Hello Cloud Run & Cloud Build World!');
     });
   });
 });
